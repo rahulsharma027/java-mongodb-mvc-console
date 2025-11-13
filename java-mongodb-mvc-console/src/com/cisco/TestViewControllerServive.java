@@ -16,8 +16,9 @@ public class TestViewControllerServive {
 		Scanner scan = new Scanner(System.in);
 		// for storing profile in mongoDB
 		ProfileDao dao = new ProfileDao();
-		// for printing user by id
+		// for storing user obj
 		Profile user = null;
+		// ObjectId to search for records
 		ObjectId userId = null;
 		// findAll()
 		List<Profile> users = null;
